@@ -1,9 +1,10 @@
 <?php
    include("conf.php");
-   session_start();
+   session_start(); //xreiazetai gia na apothikeuei tis plhrofories tou xrhsth mexri na kanei log out
    
    if($_SERVER["REQUEST_METHOD"] == "POST") {
       // username and password sent from form 
+	  
       
       $myusername = mysqli_real_escape_string($db,$_POST['username']);
       $mypassword = mysqli_real_escape_string($db,$_POST['password']); 
