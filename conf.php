@@ -1,5 +1,5 @@
 <?php
-   define('DB_SERVER', '/home/student/it/2014/it144329/mysql/run/mysql.sock');
+   define('DB_SERVER', '/home/student/it144329/mysql/run/mysql.sock');
    define('DB_USERNAME', 'root');
    define('DB_PASSWORD', '123');
    define('DB_DATABASE', 'triliza');
